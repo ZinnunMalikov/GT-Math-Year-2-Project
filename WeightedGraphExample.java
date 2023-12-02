@@ -11,8 +11,6 @@ class WeightedGraph {
         this.adjacencyList = new HashMap<>();
     }
     
-
-    
     private static class Edge {
         int destination;
         int weight;
